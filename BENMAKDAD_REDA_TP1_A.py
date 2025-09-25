@@ -166,12 +166,10 @@ liste_triee4 = list(range(0, 100))
 nbr_etapes_liste_triee4 = tri_rapide_ex4(liste_triee4, 0, len(liste_triee4))
 print(f"nombre d'etapes LISTE TRIEE : {nbr_etapes_liste_triee4}\n")
 
-
 liste_inversee4 = list(range(100, 0, -1))
 nbr_etapes_liste_inversee4 = tri_rapide_ex4(
     liste_inversee4, 0, len(liste_inversee4))
 print(f"nombre d'etapes LISTE INVERSEE : {nbr_etapes_liste_inversee4}\n")
-
 
 liste_aleatoire4 = []
 for i in range(0, 100):
