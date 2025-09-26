@@ -21,6 +21,8 @@ liste_personnes = [Personne('A', 22, 10000), Personne('B', 19, 700), Personne('C
                    Personne('E', 45, 5000), Personne('F', 12, 0), Personne('G', 55, 2500), Personne('H', 21, 9000),
                    Personne('I', 90, 1200), Personne('G', 80, 1500), Personne('K', 20, 300), Personne('L', 44, 6000) ]
 
+trirapide_gen(liste_personnes, 0, len(liste_personnes), compare_age_croissant)
+
 for personne in liste_personnes:
     personne.affiche()
 
